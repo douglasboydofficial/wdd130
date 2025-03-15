@@ -246,6 +246,83 @@ nav {
     transform: scale(1.1);
 }
 
+/*code for page two (rivers)*/
+
+#salmon {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#desolation {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#GrandCanyon {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#salmon img{
+    float: left;
+    margin-top: -40px;
+    margin-bottom: 20px;  
+    margin-right: 10px;  
+}
+
+#desolation img {
+    float:right;
+    margin-top: -40px;
+    margin-bottom: 20px;  
+}
+
+#GrandCanyon img {
+    float:left;
+    margin-top: -60px;
+    margin-bottom: 40px;  
+}
+
+#salmon p {
+    text-align: center;
+    color: #090C9B;
+    font-size: .8em;
+    padding-bottom: 15px;
+    position: relative right;
+}
+
+#desolation p {
+    text-align: center;
+    color: #090C9B;
+    font-size: .8em;
+    padding-bottom: 15px;
+    position: relative left;
+}
+
+#GrandCanyon p {
+    text-align: center;
+    color: #090C9B;
+    font-size: .8em;
+    padding-bottom: 15px;
+    position: relative right;
+}
+
+#salmon h4 {
+    Position: relative;
+    left: 250px;
+}
+
+#desolation h4 {
+    Position: relative;
+    right: 250px;
+}
+
+#GrandCanyon h4 {
+    Position: relative;
+    left: 300px;
+}
+
+
+/*Media inquiries are below*/
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
