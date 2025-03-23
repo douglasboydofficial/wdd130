@@ -9,133 +9,137 @@
     </head>
     <body>
         
-        <div>
-            <div>
+
+            <div class="navigationbar">
                 <header>
                     <a href="index.html">
-                        <img src = "images/Llama_logo.jpg" alt="portfolio logo">
+                        <img src = "images/Llama_logo.jpg" alt="portfolio logo" id="logolink">
                     </a>
-                    <nav>
-                        <a href="index.html">Home</a>
-                        <a href="projects.html">Projects</a>
-                        <a href="Contactme.html">Contact Me</a>
+                    <nav class="headerlink">
+                        <a href="index.html" id="Homelink">Home</a>
+                        <a href="projects.html" id="Projectslink">Projects</a>
+                        <a href="Contactme.html" id="Contactmelink">Contact Me</a>
                     </nav>
                 </header>
             </div>
 
 
-            <main>
-                <div>
-                    <h4>Introduction</h4>
-                    <p>
-                        <span>"I'm Douglas Boyd and welcome to my portfolio site. I believe in a digital world where everyone can feel secure. That's 
+            <main id="homepage">
+                
+                    <section id="introduction">
+                        <h3>Introduction</h3>
+                        <img src ="images/Me.jpg" alt ="Me">
+                        <p>I'm Douglas Boyd and welcome to my portfolio site. I believe in a digital world where everyone can feel secure. That's 
                         why I'm dedicated to cybersecurity. My approach is hands-on and driven by a genuine desire to protect data privacy. 
                         I'm eager to apply my growing knowledge in Python, SQL, and PowerShell to make a tangible difference in the field.
-                        </span>
-                    </p>
+                        </p>
+                    </section>
 
-                    <p>
-                        <img src ="images/Me.jpg" alt ="Me">
-                    </p>
+                    <section id="block2">
+                        <h3>Cybersecurity Passion and Approach</h3>
+                        <p>
+                            <span>
+                            My journey into cybersecurity is driven by a deep passion for protecting data privacy and ensuring digital integrity. 
+                            I'm actively exploring the multifaceted world of cybersecurity, with a particular interest in cryptography, malware analysis, 
+                            and penetration testing. My approach is hands-on, emphasizing practical application and continuous learning. I am particularly 
+                            interested in the way that different areas of cybersecurity interact and combine, such as how cryptography is used in malware, or 
+                            how penetration testing can reveal flaws in database design.
+                            </span>
+                        </p>
+                    </section>
 
-                    <h4>Cybersecurity Passion and Approach</h4>
-                    <p>
-                        <span>
-                        My journey into cybersecurity is driven by a deep passion for protecting data privacy and ensuring digital integrity. 
-                        I'm actively exploring the multifaceted world of cybersecurity, with a particular interest in cryptography, malware analysis, 
-                        and penetration testing. My approach is hands-on, emphasizing practical application and continuous learning. I am particularly 
-                        interested in the way that different areas of cybersecurity interact and combine, such as how cryptography is used in malware, or 
-                        how penetration testing can reveal flaws in database design.
-                        </span>
-                    </p>
+                    <section id="block3">
+                        <h3>Technical Skill and Development</h3>
+                        <p>
+                            <span>
+                            While my career aspirations are broad, I'm eager to contribute to any role where I can leverage my growing skillset. 
+                            I'm currently expanding my knowledge of network analysis with Wireshark, recognizing the importance of understanding network 
+                            traffic in today's threat landscape. I find the ability to analyze network packets to be an invaluable skill in the modern world.
+                            </span>
+                        </p>
+                        <p>
+                            <span>
+                            My proficiency in Python is demonstrated through various projects, primarily focused on mathematical and computational functions. 
+                            One project I'm particularly proud of involved creating a program to analyze the physics of a water tower during peak hours. This
+                            project showcased my ability to apply programming logic to solve real-world problems.
+                            </span>
+                        </p>
+                        <p>
+                            <span>
+                            While my Python projects, to date, have been calculation-centric, they lay a solid foundation for more security-focused applications
+                            in the future. I am aware that security focused python programs utilize libraries like Scapy, and Pycryptodome, and intend to learn them.
+                                Additionally, I possess basic PowerShell scripting skills, enabling me to automate tasks and manage systems efficiently, which are valuable 
+                                assets in a security context. I am interested in expanding my powershell knowledge to include more security focused scripting.
+                            </span>
+                        </p>
+                        <p>
+                            <span>
+                            My experience with SQL extends to database design, a crucial skill for managing and securing sensitive information. I understand the
+                            importance of secure database practices and am committed to learning more about database security auditing, including the use of SQL 
+                            injection detection tools. I also recognize the importance of database normalization.
+                            </span>
+                        </p>
+                    </section>
 
-                    <h4>Technical Skill and Development</h4>
-                    <p>
-                        <span>
-                        While my career aspirations are broad, I'm eager to contribute to any role where I can leverage my growing skillset. 
-                        I'm currently expanding my knowledge of network analysis with Wireshark, recognizing the importance of understanding network 
-                        traffic in today's threat landscape. I find the ability to analyze network packets to be an invaluable skill in the modern world.
-                        </span>
-                    </p>
-                    <p>
-                        <span>
-                        My proficiency in Python is demonstrated through various projects, primarily focused on mathematical and computational functions. 
-                        One project I'm particularly proud of involved creating a program to analyze the physics of a water tower during peak hours. This
-                        project showcased my ability to apply programming logic to solve real-world problems.
-                        </span>
-                    </p>
-                    <p>
-                        <span>
-                        While my Python projects, to date, have been calculation-centric, they lay a solid foundation for more security-focused applications
-                        in the future. I am aware that security focused python programs utilize libraries like Scapy, and Pycryptodome, and intend to learn them.
-                            Additionally, I possess basic PowerShell scripting skills, enabling me to automate tasks and manage systems efficiently, which are valuable 
-                            assets in a security context. I am interested in expanding my powershell knowledge to include more security focused scripting.
-                        </span>
-                    </p>
-                    <p>
-                        <span>
-                        "My experience with SQL extends to database design, a crucial skill for managing and securing sensitive information. I understand the
-                        importance of secure database practices and am committed to learning more about database security auditing, including the use of SQL 
-                        injection detection tools. I also recognize the importance of database normalization."
-                        </span>
-                    </p>
+                    <section id="block4">
+                        <h3>Cybersecurity Interests and Learning</h3>
+                        <p>
+                            <span>
+                            My interest in cryptography stems from a desire to understand the fundamental principles that underpin secure communication and data
+                            protection. Examples of cryptography algorithms include AES, RSA, and hash functions. I am also interested in the analysis of malware, 
+                            specifically ransomware and spyware, and the techniques used to detect and mitigate these threats. I am currently studying the various 
+                            methods that ransomware uses to encrypt and exfiltrate data. My experience with Kali Linux provides a foundational understanding of 
+                            penetration testing tools and methodologies. I am working to improve my ability to use the tools available within Kali Linux.
+                            </span>
+                        </p>
+                        <p>
+                            <span>
+                            Beyond my technical skills, I pride myself on my attention to detail and communication abilities, both essential for effective 
+                            cybersecurity practices. I'm a firm believer in continuous learning and staying abreast of the latest security trends. My personal
+                            mission is to contribute to a safer digital world by safeguarding data privacy and ensuring system integrity. I intend to continue 
+                            to read security blogs, and white papers to keep my skills up to date.
+                            </span>
+                        </p>
+                    </section>
 
-                    <h4>Cybersecurity Interests and Learning</h4>
-                    <p>
-                        <span>
-                        My interest in cryptography stems from a desire to understand the fundamental principles that underpin secure communication and data
-                        protection. Examples of cryptography algorithms include AES, RSA, and hash functions. I am also interested in the analysis of malware, 
-                        specifically ransomware and spyware, and the techniques used to detect and mitigate these threats. I am currently studying the various 
-                        methods that ransomware uses to encrypt and exfiltrate data. My experience with Kali Linux provides a foundational understanding of 
-                        penetration testing tools and methodologies. I am working to improve my ability to use the tools available within Kali Linux.
-                        </span>
-                    </p>
-                    <p>
-                        <span>
-                        Beyond my technical skills, I pride myself on my attention to detail and communication abilities, both essential for effective 
-                        cybersecurity practices. I'm a firm believer in continuous learning and staying abreast of the latest security trends. My personal
-                        mission is to contribute to a safer digital world by safeguarding data privacy and ensuring system integrity. I intend to continue 
-                        to read security blogs, and white papers to keep my skills up to date.
-                        </span>
-                    </p>
-
-                    <h4>Beyond Cybersecurity and Future Goals</h4>
-                    <p>
-                        <span>
-                        In addition to my cybersecurity pursuits, I have a passion for design and engineering, which I express through my hobby with SolidWorks. 
-                        While seemingly disparate, this interest reflects my problem-solving abilities and my appreciation for the intricacies of complex systems. 
-                        I plan to include a page on my portfolio showcasing my SolidWorks projects, demonstrating my ability to think creatively and apply 
-                        technical skills in diverse contexts. I intend to include 3D renderings, and technical drawings of my projects.
-                        </span>
-                    </p>
-                    <p>
-                        <span>
-                        My goal is to integrate my programming skills, cybersecurity knowledge, and design aptitude to become a well-rounded and effective 
-                        cybersecurity professional. I am currently looking for opportunities to expand my knowledge through internships, and entry level 
-                        positions.
-                        </span>
-                    </p>
-                    
-                </div>
+                    <section id="block5">
+                        <h3>Beyond Cybersecurity and Future Goals</h3>
+                        <p>
+                            <span>
+                            In addition to my cybersecurity pursuits, I have a passion for design and engineering, which I express through my hobby with SolidWorks. 
+                            While seemingly disparate, this interest reflects my problem-solving abilities and my appreciation for the intricacies of complex systems. 
+                            I plan to include a page on my portfolio showcasing my SolidWorks projects, demonstrating my ability to think creatively and apply 
+                            technical skills in diverse contexts. I intend to include 3D renderings, and technical drawings of my projects.
+                            </span>
+                        </p>
+                        <p>
+                            <span>
+                            My goal is to integrate my programming skills, cybersecurity knowledge, and design aptitude to become a well-rounded and effective 
+                            cybersecurity professional. I am currently looking for opportunities to expand my knowledge through internships, and entry level 
+                            positions.
+                            </span>
+                        </p>
+                    </section>
+                
             </main>
 
             <div>
-                <footer>
-                    <p> Portfolio &copy; 2025 - Douglas Boyd</p>
-                    <p><a href="site-plan.html">Site Plan</a></p>
-                    <div>
+                <footer id="footer">
+                    <p id="copyright">Portfolio &copy; 2025 - Douglas Boyd</p>
+                    <p id="siteplanlink"><a href="site-plan.html">Site Plan</a></p>
+                    <div class="social">
                         <a href="https://www.linkedin.com/in/doug-boyd/" target="_blank">
-                            <img src="images/linkedin.png" alt="Linkedin icon">
+                            <img src="images/linkedin.png" alt="Linkedin icon" id="linkedinicon">
                         </a>
                         <a href="https://github.com/douglasboydofficial" target="_blank">
-                            <img src="images/Github_logo.png" alt="Github icon">
+                            <img src="images/Github_logo.png" alt="Github icon" id="githubicon">
                         </a>
                         <a href="https://byui.joinhandshake.com/profiles/8ey34t" target="_blank">
-                            <img src="images/Handshake_logo.jpg" alt="Handshake icon">
+                            <img src="images/Handshake_logo.jpg" alt="Handshake icon" id="handshakeicon">
                         </a>
                     </div>
                 </footer>
             </div>
-        </div>
+        
     </body>
 </html>
