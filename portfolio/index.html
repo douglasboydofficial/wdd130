@@ -6,6 +6,27 @@
         <title>Portfolio Home</title>
         <link rel="icon" href = "styles/favicon.ico">
         <link rel="stylesheet" href="styles/style.css">
+        <script>
+            // Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+        </script>
     </head>
     <body>
         
@@ -16,7 +37,7 @@
                         <img src = "images/Llama_logo.jpg" alt="portfolio logo" id="logolink">
                     </a>
                     <nav class="headerlink">
-                        <a href="index.html" id="Homelink">Home</a>
+                        <a class="active" href="index.html" id="Homelink">Home</a>
                         <a href="projects.html" id="Projectslink">Projects</a>
                         <a href="Contactme.html" id="Contactmelink">Contact Me</a>
                     </nav>
@@ -120,13 +141,17 @@
                             </span>
                         </p>
                     </section>
-                
+                    
+                <div class="bottomtotop"> 
+                    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+                </div>
+
             </main>
 
             <div>
-                <footer id="footer">
-                    <p id="copyright">Portfolio &copy; 2025 - Douglas Boyd</p>
-                    <p id="siteplanlink"><a href="site-plan.html">Site Plan</a></p>
+                <footer>
+                    <span id="copyright">Portfolio &copy; 2025 - Douglas Boyd</span>
+                    <a id="siteplanlink" href="site-plan.html">Site Plan</a>
                     <div class="social">
                         <a href="https://www.linkedin.com/in/doug-boyd/" target="_blank">
                             <img src="images/linkedin.png" alt="Linkedin icon" id="linkedinicon">
