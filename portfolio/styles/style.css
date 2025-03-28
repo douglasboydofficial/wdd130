@@ -516,3 +516,21 @@ h2 {
     color: #fefefe;
     background-color: #2F4F4F
 }
+
+#powershell1 a {
+    text-decoration-line: underline;
+    color: #fefefe;
+    font-family: Quantico, Exo 2, Roboto Mono;
+}
+
+#powershell2 a {
+    text-decoration-line: underline;
+    color: #fefefe;
+    font-family: Quantico, Exo 2, Roboto Mono;
+}
+
+#powershell3 a {
+    text-decoration-line: underline;
+    color: #fefefe;
+    font-family: Quantico, Exo 2, Roboto Mono;
+}
