@@ -311,7 +311,9 @@ footer img {
   }
 
   .projectheader {
-    text-align: center;    
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 20px;
   }
 
 
@@ -330,15 +332,13 @@ h2 {
     color:#001100;
     
 }
-/*python projects*/
 
+/*python projects*/
 #pythonprojects {
     height: 300px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto;
-    margin-top: 30px;
-    margin-bottom: 75px;
     align-items: center;
     align-content: center;
     justify-items: center;
@@ -382,7 +382,7 @@ h2 {
     border-radius: 5px;
     padding: 5px;
     font-family: Quantico, Exo 2, Roboto Mono;
-    font-size: 15px;
+    font-size: 16px;
     color: #fefefe;
     background-color: #2F4F4F
 }
@@ -396,7 +396,7 @@ h2 {
     border-radius: 5px;
     padding: 5px;
     font-family: Quantico, Exo 2, Roboto Mono;
-    font-size: 15px;
+    font-size: 16px;
     color: #fefefe;
     background-color: #2F4F4F
 }
@@ -410,19 +410,35 @@ h2 {
     border-radius: 5px;
     padding: 5px;
     font-family: Quantico, Exo 2, Roboto Mono;
-    font-size: 15px;
+    font-size: 16px;
     color: #fefefe;
     background-color: #2F4F4F
 }
 
+#bmi a {
+    text-decoration-line: underline;
+    color: #fefefe;
+    font-family: Quantico, Exo 2, Roboto Mono;
+}
 
+#cansize a {
+    text-decoration-line: underline;
+    color: #fefefe;
+    font-family: Quantico, Exo 2, Roboto Mono;
+}
+
+#waterflow a {
+    text-decoration-line: underline;
+    color: #fefefe;
+    font-family: Quantico, Exo 2, Roboto Mono;
+}
 
 #powershellprojects {
     display: grid;
     height: 300px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto;
-    margin-top: 75px;
+    margin-top: 25px;
     margin-bottom: 30px;
     border-radius: 12.5px;
     column-gap: 60px;
