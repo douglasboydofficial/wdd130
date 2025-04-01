@@ -245,20 +245,11 @@ footer img {
     box-shadow: 0 9px #AEAEAD;
 }
 
-#linkedinicon:active {
+#linkedinicon:active, #githubicon:active, #handshakeicon:active {
     box-shadow: 0 5px #AEAEAD;
     transform: translateY(4px);
 }
 
-#githubicon:active {
-    box-shadow: 0 5px #AEAEAD;
-    transform: translateY(4px);
-}
-
-#handshakeicon:active {
-    box-shadow: 0 5px #AEAEAD;
-    transform: translateY(4px);
-}
 
 .active {
     color: #FEFEFA;
@@ -303,9 +294,12 @@ footer img {
 
   /*End of homepage css styles*/
 
+
+
+
+
   /*Project page css styles*/
-
-
+/*Project page header*/
   #projectbody {
     color: #FEFEFA;
   }
@@ -433,6 +427,7 @@ h2 {
     font-family: Quantico, Exo 2, Roboto Mono;
 }
 
+/*powershell projects*/
 #powershellprojects {
     display: grid;
     height: 300px;
@@ -533,4 +528,148 @@ h2 {
     text-decoration-line: underline;
     color: #fefefe;
     font-family: Quantico, Exo 2, Roboto Mono;
+}
+
+
+
+
+
+/*contactme portfolio child page*/
+/*contact header*/
+#contactmain {
+    background-color: #FEFEFA;
+}
+
+#contactmeheader {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    background-color: #FAF0E6;
+}
+
+#contactmeheader span {
+    border-style: solid;
+    border-color:#001100;
+    border-width: 3px;
+    height: 80px;
+    line-height: 80px;
+    width: 300px;
+    text-align: center;
+    margin-right: 2px;
+    font: "Roboto";
+    border-right-style: none;
+    background-color: #2F4F4F;
+    color: #FEFEFA;
+}
+
+#contactmeheader img {
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+
+/*contact body - name, email, email icon*/
+#contactinfocontainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 1fr 1fr;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    background-color: #FAF0E6;  
+}
+
+#myname {
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 1;
+    font: "Quantico", "Exo 2", "Roboto mono";
+}
+
+#emailicon {
+    width: 80px;
+    height: 80px;
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+    transform: translateX(130px);
+}
+
+#email {
+    grid-column: 3 / span 2;
+    grid-row: 2 / span 1;
+    transform: translateX(-120px);
+    font: "Quantico", "Exo 2", "Roboto mono";
+}
+
+/*contact form*/
+#contactbodycontainer{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+#contactbodycontainer span {
+    border-style: solid;
+    border-width: 3px;
+    border-color:#001100;
+    Height: 50px;
+    line-height: 50px;
+    padding: 20px;
+    border-radius: 12.5px;
+    font: "Roboto";
+    background-color: #2F4F4F;
+    color: #FEFEFA;
+}
+
+#contactbodycontainer form {
+    width: 100%;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    border-style: solid;
+    border-color: #001100;
+    border-width: 4px;
+    font: "Quantico", "Exo 2", "Roboto mono";
+    background-color: #FAF0E6; 
+}
+
+#contactbodycontainer section {
+    margin-bottom: 15px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 50%;
+}
+
+#msg:not(> *) {
+    margin-bottom: 15px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+textarea {
+    width: 50%;
+    height: 50%;
 }
