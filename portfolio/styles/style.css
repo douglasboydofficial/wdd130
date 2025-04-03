@@ -75,7 +75,7 @@ a {
 
 
 
-
+/*main body*/
 #homepage {
     display: grid;
     grid-template-columns: 1fr;
@@ -93,6 +93,9 @@ a {
 
 #introduction p {
     width: 95%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 15px;
 }
 
 #introduction img {
@@ -102,16 +105,12 @@ a {
     margin-left: 10px; /* Adds spacing between the image and text */
     margin-top: -110px;
     border-radius: 60%; /* Keeps the circular shape as seen in the rendered page */
+
 }
 
 #introduction h4 {
-    clear:both
-}
-
-#introduction p {
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 15px;
+    clear:both;
+    text-indent: 1em;
 }
 
 #block2 {
@@ -146,11 +145,12 @@ main p {
     padding: 15px;
     background-color: #2F4F4F;
     color: #FEFEFA;
-    font-family: Quantico, Exo 2, Roboto Mono;
+    font-family: "Quantico", "Exo 2", "Roboto Mono";
     font-size: 17px;
     margin-left: 10px;
     margin-right: 10px;
     line-height: 1.4em;
+    text-indent: 2em;
 }
 
 #homepage h3 {
@@ -158,6 +158,7 @@ main p {
     color: #001100;
     font-family: Roboto;
     margin-left: 10px;
+    text-indent: 1em;
 }
 
 
@@ -226,30 +227,17 @@ footer img {
     border-color: #001100;
 }
 
-#linkedinicon:hover {
+#linkedinicon:hover, #githubicon:hover, #handshakeicon:hover {
     border-style: inset;
     border-style: outset;
     box-shadow: 0 9px #AEAEAD;
     
 }
 
-#githubicon:hover {
-    border-style: inset;
-    border-style: outset;
-    box-shadow: 0 9px #AEAEAD;
-}
-
-#handshakeicon:hover {
-    border-style: inset;
-    border-style: outset;
-    box-shadow: 0 9px #AEAEAD;
-}
-
 #linkedinicon:active, #githubicon:active, #handshakeicon:active {
     box-shadow: 0 5px #AEAEAD;
     transform: translateY(4px);
 }
-
 
 .active {
     color: #FEFEFA;
@@ -278,27 +266,43 @@ footer img {
     border-radius: 10px; /* Rounded corners */
     font-size: 1.2em; /* Increase font size */
     padding: 20px;
+    scroll-behavior: smooth;
   }
   
-  #myBtn:hover {
+#myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
     color: #FEFEFA;
     border-style: solid;
     border-color: #001100;
+    scroll-behavior: smooth;
   }
 
-  .bottomtotop {
+.bottomtotop {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-
-  /*End of homepage css styles*/
-
+/*End of homepage css styles*/
 
 
 
 
-  /*Project page css styles*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Project page css styles*/
 /*Project page header*/
   #projectbody {
     color: #FEFEFA;
@@ -375,7 +379,7 @@ h2 {
     border-color: #001100;
     border-radius: 5px;
     padding: 5px;
-    font-family: Quantico, Exo 2, Roboto Mono;
+    font-family: "Quantico", "Exo 2", "Roboto Mono";
     font-size: 16px;
     color: #fefefe;
     background-color: #2F4F4F
@@ -389,7 +393,7 @@ h2 {
     border-color: #001100;
     border-radius: 5px;
     padding: 5px;
-    font-family: Quantico, Exo 2, Roboto Mono;
+    font-family: "Quantico", "Exo 2", "Roboto Mono";
     font-size: 16px;
     color: #fefefe;
     background-color: #2F4F4F
@@ -403,7 +407,7 @@ h2 {
     border-color: #001100;
     border-radius: 5px;
     padding: 5px;
-    font-family: Quantico, Exo 2, Roboto Mono;
+    font-family: "Quantico", "Exo 2", "Roboto Mono";
     font-size: 16px;
     color: #fefefe;
     background-color: #2F4F4F
@@ -412,19 +416,19 @@ h2 {
 #bmi a {
     text-decoration-line: underline;
     color: #fefefe;
-    font-family: Quantico, Exo 2, Roboto Mono;
+    font-family: "Quantico", "Exo 2", "Roboto Mono";
 }
 
 #cansize a {
     text-decoration-line: underline;
     color: #fefefe;
-    font-family: Quantico, Exo 2, Roboto Mono;
+    font-family: "Quantico", "Exo 2", "Roboto Mono";
 }
 
 #waterflow a {
     text-decoration-line: underline;
     color: #fefefe;
-    font-family: Quantico, Exo 2, Roboto Mono;
+    font-family: "Quantico", "Exo 2", "Roboto Mono";
 }
 
 /*powershell projects*/
@@ -478,7 +482,7 @@ h2 {
     border-color: #001100;
     border-radius: 5px;
     padding: 5px;
-    font-family: Quantico, Exo 2, Roboto Mono;
+    font-family: "Quantico", "Exo 2", "Roboto Mono";
     font-size: 15px;
     color: #fefefe;
     background-color: #2F4F4F
@@ -492,7 +496,7 @@ h2 {
     border-color: #001100;
     border-radius: 5px;
     padding: 5px;
-    font-family: Quantico, Exo 2, Roboto Mono;
+    font-family: "Quantico", "Exo 2", "Roboto Mono";
     font-size: 15px;
     color: #fefefe;
     background-color: #2F4F4F
@@ -506,7 +510,7 @@ h2 {
     border-color: #001100;
     border-radius: 5px;
     padding: 5px;
-    font-family: Quantico, Exo 2, Roboto Mono;
+    font-family: "Quantico", "Exo 2", "Roboto Mono";
     font-size: 15px;
     color: #fefefe;
     background-color: #2F4F4F
@@ -515,20 +519,36 @@ h2 {
 #powershell1 a {
     text-decoration-line: underline;
     color: #fefefe;
-    font-family: Quantico, Exo 2, Roboto Mono;
+    font-family: "Quantico", "Exo 2", "Roboto Mono";
 }
 
 #powershell2 a {
     text-decoration-line: underline;
     color: #fefefe;
-    font-family: Quantico, Exo 2, Roboto Mono;
+    font-family: "Quantico", "Exo 2", "Roboto Mono";
 }
 
 #powershell3 a {
     text-decoration-line: underline;
     color: #fefefe;
-    font-family: Quantico, Exo 2, Roboto Mono;
+    font-family: "Quantico", "Exo 2", "Roboto Mono";
 }
+/*End of project page css styles*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
