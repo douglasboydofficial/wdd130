@@ -3,7 +3,7 @@
 /*Header css styles*/
 .navigationbar {
     display: grid;
-    grid-template-columns: 2;
+    grid-template-columns: 2fr;
 }
 
 header {
@@ -23,7 +23,7 @@ header {
 }
 
 #logolink {
-    grid-column: 0/ span 1;
+    grid-column: 1 / span 1;
     width: 120%;
     height: 120%;
     border-top-left-radius: 60px;
