@@ -581,7 +581,7 @@ h2 {
     width: 300px;
     text-align: center;
     margin-right: 2px;
-    font: "Roboto";
+    font: Roboto;
     border-right-style: none;
     background-color: #2F4F4F;
     color: #FEFEFA;
@@ -650,7 +650,7 @@ h2 {
     line-height: 50px;
     padding: 20px;
     border-radius: 12.5px;
-    font: "Roboto";
+    font: Roboto;
     background-color: #2F4F4F;
     color: #FEFEFA;
 }
