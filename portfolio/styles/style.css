@@ -581,7 +581,7 @@ h2 {
     width: 300px;
     text-align: center;
     margin-right: 2px;
-    font: Roboto;
+    font: "Roboto";
     border-right-style: none;
     background-color: #2F4F4F;
     color: #FEFEFA;
@@ -613,7 +613,7 @@ h2 {
 #myname {
     grid-column: 3 / span 1;
     grid-row: 1 / span 1;
-    font: "Quantico", "Exo 2", "Roboto mono";
+    font-family: "Quantico", "Exo 2", "Roboto mono";
 }
 
 #emailicon {
@@ -628,7 +628,7 @@ h2 {
     grid-column: 3 / span 2;
     grid-row: 2 / span 1;
     transform: translateX(-120px);
-    font: "Quantico", "Exo 2", "Roboto mono";
+    font-family: "Quantico", "Exo 2", "Roboto mono";
 }
 
 /*contact form*/
@@ -650,7 +650,7 @@ h2 {
     line-height: 50px;
     padding: 20px;
     border-radius: 12.5px;
-    font: Roboto;
+    font: "Roboto";
     background-color: #2F4F4F;
     color: #FEFEFA;
 }
@@ -663,7 +663,7 @@ h2 {
     border-style: solid;
     border-color: #001100;
     border-width: 4px;
-    font: "Quantico", "Exo 2", "Roboto mono";
+    font-family: "Quantico", "Exo 2", "Roboto mono";
     background-color: #FAF0E6; 
 }
 
@@ -692,4 +692,4 @@ label {
 textarea {
     width: 50%;
     height: 50%;
-}
+}      
