@@ -680,7 +680,7 @@ input {
     width: 50%;
 }
 
-#msg:not(> *) {
+#msg:not(>) {
     margin-bottom: 15px;
     text-align: center;
     align-items: center;
