@@ -346,6 +346,8 @@ h2 {
     row-gap: 40px;
     border-style: solid;
     background-color: #FAF0E6;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 #pythonprojects h3{
@@ -356,7 +358,6 @@ h2 {
     transform: skew(-35deg);
     border-color: #001100;
     padding: 30px;
-    border-color: #001100;
     font-family: Roboto;
     color: #fefefe;
     background-color: #2F4F4F;
@@ -448,6 +449,8 @@ h2 {
     justify-content: center;
     border-style: solid;
     background-color: #FAF0E6;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 #powershellprojects h3{
@@ -457,8 +460,7 @@ h2 {
     border-width: 5px;
     transform: skew(-35deg);
     border-color: #001100;
-    padding: 40px;
-    border-color: #001100;
+    padding: 30px;
     font-family: Roboto;
     color: #fefefe;
     background-color: #2F4F4F;
